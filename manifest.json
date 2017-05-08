@@ -1,0 +1,18 @@
+{
+  "description": "Filters out grades less than 80% on the Canvas homepage and course sidebars.",
+  "manifest_version": 2,
+  "name": "Canvas Rose Tinted Feedback",
+  "version": "1.2",
+  "icons": {
+    "48": "icon48.png",
+    "96": "icon96.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://canvas.auckland.ac.nz/*", "*://canvas.manukau.ac.nz/*", "*://auckland.instructure.com/*", "*://manukau.instructure.com/*"],
+      "js": ["tint.js"],
+      "css": ["style.css"]
+    }
+  ]
+
+}
