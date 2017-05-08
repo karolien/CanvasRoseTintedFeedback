@@ -6,6 +6,8 @@ Chrome Web Store: https://goo.gl/41gCiE
 
 Firefox Addons: https://goo.gl/7zUIO6
 
+![alt text](https://github.com/karolien/CanvasRoseTintedFeedback/blob/master/screenshot.png)
+
 An alternative web extension is 'Canvas Hide Recent Feedback' which simply hides all grades.
 
 Chrome Web Store: https://goo.gl/xjwt5Y
